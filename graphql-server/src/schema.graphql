@@ -1,0 +1,14 @@
+type Query {
+  getUserDetails(id: ID!): [User!]!
+}
+
+type Mutation {
+  addProfilePicture(id: ID!, photo: String!): [User!]!
+}
+
+type User {
+  id:ID!
+  name: String!
+  bio: String!
+  photo: String!
+}
