@@ -1,4 +1,4 @@
-# News Digest React Native App
+# InstaFun React Native App
 
 Screenshots of the App : 
 
